@@ -10,7 +10,7 @@ function setSeasonalLink() {
   let seasonalElement = document.getElementById('seasonal');
 
   let fresh = isFreshPieSeason();
-
+  
   if(fresh) {
     seasonalElement.innerText = 'Fresh Seasonal Pies';
   }
